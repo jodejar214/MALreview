@@ -94,7 +94,7 @@ def getReviews(url):
 			pind = html.find("<small>permalink</small></a>")
 			html = html[pind+len("<small>permalink</small></a>"):]
 		else:
-			print("Only found " + i + " reviews for " + str(url))
+			print("Only found " + str(i) + " reviews for " + str(url))
 			break
 	
 	#go to each review link
@@ -150,7 +150,7 @@ def getReviews(url):
 			g.close()
 			reviewText = str(reviewText).replace("\r\n","").strip()
 
-		review_info.append(num_help, scores, reviewText))
+		review_info.append((num_help, scores, reviewText))
 	return review_info
 
 #make dict out of info to write into csv
@@ -175,7 +175,7 @@ def makeDict(infoList, reviewInfo):
 #get top 1000 most popular anime profiles
 urlFile = "animeUrls.txt"
 f = open(urlFile, "w")
-for i in range(0,1000,50):
+for i in range(550,1000,50):
 	getChart(i,f)
 f.close()
 f = open(urlFile, "r")
