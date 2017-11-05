@@ -175,7 +175,7 @@ def makeDict(infoList, reviewInfo):
 #get top 1000 most popular anime profiles
 urlFile = "animeUrls.txt"
 f = open(urlFile, "w")
-for i in range(550,1000,50):
+for i in range(0,1000,50):
 	getChart(i,f)
 f.close()
 f = open(urlFile, "r")
