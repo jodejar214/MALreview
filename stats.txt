@@ -1,0 +1,49 @@
+Total Reviews Analyzed: 9420
+
+Stats about Number of Paragraphs:
+12,1,189,10.1849694354
+
+Stats about Total Words in Review:
+744,13,9051,592.644857517
+
+Stats about Number of Words Per Paragraph:
+60,1,1208,62.1754457774
+
+Stats About Reviews With Minimum Number of Paragraphs:
+Size = 1
+Number of reviews = 268
+
+Stats about Total Number of Words for Reviews With Minimum Number of Paragraphs:
+153,13,563,84.4492815313
+
+Stats about Number of Words Per Paragraph for Reviews With Minimum Number of Paragraphs:
+153,13,563,84.4492815313
+
+Stats With Maximum Number of Paragraphs:
+189,5134,27
+
+Stats About Reviews With Average Number of Paragraphs:
+Size = 12
+Number of reviews = 408
+
+Stats about Total Number of Words for Reviews With Average Number of Paragraphs:
+776,123,2980,459.106570874
+
+Stats about Number of Words Per Paragraph for Reviews With Average Number of Paragraphs:
+64,10,248,84.4492815313
+
+Stats About Reviews Within 1sd of Average Number of Paragraphs:
+Size = 1.81503056461 - 22.1849694354
+Number of reviews = 8160
+
+Stats about Total Number of Words for Reviews Within 1sd of Average Number of Paragraphs:
+669,23,6109,456.037954782
+
+Stats about Number of Words Per Paragraph for Reviews Within 1sd of Average Number of Paragraphs:
+70,4,365,41.4278140313
+
+Stats about Review With Minimum Total Words:
+13,1,13
+
+Stats about Review With Maximum Total Words:
+9051,183,49
